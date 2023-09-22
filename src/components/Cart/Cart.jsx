@@ -17,8 +17,8 @@ const Cart = (props) => {
     const tax = totalPrice * 7 / 100;
     const grandTotal = totalPrice + totalShipping + tax;
     return (
-        <div>
-            <h3 className='cart'>Order Summary</h3>
+        <div className='cart'>
+            <h3 className='cart-headding'>Order Summary</h3>
             <p>Selected Items: {cart.length}</p>
             <p>Total Price: ${totalPrice}</p>
             <p>Total shopping Charge: ${totalShipping}</p>

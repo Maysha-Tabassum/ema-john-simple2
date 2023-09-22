@@ -1,7 +1,10 @@
 .cart {
-    padding: 20px;
     position: sticky;
     top: 0;
+}
+
+.cart-headding {
+    padding: 20px
 }
 
 .btn-red {
