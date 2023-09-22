@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Shop.css'
 import Product from '../Product/Product';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faTrashCan } from '@fortawesome/free-solid-svg-icons'
+import Cart from '../Cart/Cart';
 
 
 const Shop = () => {
@@ -29,18 +28,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h3 className='cart-headding'>Order Summary</h3>
-                <p>Selected Items: {cart.length}</p>
-                <p>Total Price: ${ }</p>
-                <p>Total shopping Charge: ${ }</p>
-                <p>Tax: { }</p>
-                <h4>Grand Total: { }</h4>
-                <button className='btn-red'>Clear Cart
-                    <FontAwesomeIcon icon={faTrashCan} />
-                </button>
-                <button className='btn-orange'>Review Order
-                    <FontAwesomeIcon icon={faArrowRight} />
-                </button>
+                <Cart cart={cart}></Cart>
             </div>
 
         </div>

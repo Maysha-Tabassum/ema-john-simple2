@@ -14,25 +14,3 @@
     background-color: rgba(255, 153, 0, 0.30);
     padding: 25px;
 }
-
-.cart-headding {
-    padding: 20px;
-}
-
-.btn-red {
-    width: 200px;
-    height: 48px;
-    border-radius: 4px;
-    background: #FF3030;
-    margin-top: 16px;
-    color: white;
-}
-
-.btn-orange {
-    width: 200px;
-    height: 48px;
-    border-radius: 4px;
-    background: #FF9900;
-    margin-top: 16px;
-    color: white;
-}
