@@ -3,12 +3,18 @@
     top: 0;
 }
 
+.cart h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 800;
+}
+
 .cart-headding {
     padding: 20px
 }
 
 .btn-red {
-    width: 200px;
+    width: 220px;
     height: 48px;
     border-radius: 4px;
     background: #FF3030;
@@ -17,10 +23,18 @@
 }
 
 .btn-orange {
-    width: 200px;
+    width: 220px;
     height: 48px;
     border-radius: 4px;
     background: #FF9900;
     margin-top: 16px;
     color: white;
+}
+
+.btn-space {
+    margin-left: 15px;
+}
+
+.icon-spacing {
+    margin-left: 12px;
 }

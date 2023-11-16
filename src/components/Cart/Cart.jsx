@@ -30,12 +30,14 @@ const Cart = (props) => {
             <p>Total shopping Charge: ${totalShipping}</p>
             <p>Tax: {tax.toFixed(2)}</p>
             <h4>Grand Total: {grandTotal.toFixed(2)}</h4>
-            <button className='btn-red'>Clear Cart
-                <FontAwesomeIcon icon={faTrashCan} />
-            </button>
-            <button className='btn-orange'>Review Order
-                <FontAwesomeIcon icon={faArrowRight} />
-            </button>
+            <div>
+                <button className='btn-red'>Clear Cart
+                    <FontAwesomeIcon className='icon-spacing' icon={faTrashCan} />
+                </button>
+                <button className='btn-orange'>Review Order
+                    <FontAwesomeIcon className='icon-spacing' icon={faArrowRight} />
+                </button>
+            </div>
         </div>
     );
 };
